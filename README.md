@@ -12,3 +12,8 @@ This website allows to choose any random choice entered by the user in the text 
 
 1. Clone the repository
 2. Open the index.html file in the browser
+3. Enter this URl
+
+```
+https://asadmoinuddin152.github.io/16-Random-Choice-Picker/
+```
