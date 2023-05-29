@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 66.7%;
+}
+
+body {
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 2rem;
+}
+
+span {
+    margin: 2rem auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    background: linear-gradient(45deg, #00b4db, #0083b0);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+textarea {
+    background: transparent;
+    font-family: inherit;
+    display: block;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 25%;
+    height: 25%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem;
+    margin: 0 0 2rem;
+    line-height: 1.5;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.tag {
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    margin: 0 0.5rem 1rem 0;
+    padding: 0.8rem 1.2rem;
+    display: inline-block;
+}
+
+.tag.highlight {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000;
+}
+
+.fas {
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
