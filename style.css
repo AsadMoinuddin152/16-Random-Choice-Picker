@@ -99,6 +99,12 @@ textarea {
     html {
         font-size: 62.5%;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
     .container {
         width: 90vw;
     }
@@ -110,6 +116,12 @@ textarea {
 @media (max-width: 500px) {
     html {
         font-size: 50%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
     }
     .container {
         width: 90vw;
