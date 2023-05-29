@@ -93,3 +93,28 @@ textarea {
     margin: 0 0.5rem;
     cursor: pointer;
 }
+
+/* Media Queries */
+@media (max-width: 800px) {
+    html {
+        font-size: 62.5%;
+    }
+    .container {
+        width: 90vw;
+    }
+    textarea {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 50%;
+    }
+    .container {
+        width: 90vw;
+    }
+    textarea {
+        width: 70%;
+    }
+}
